@@ -16,9 +16,18 @@ This code is written for the backend of a bloging app which is written in server
 Serverless architecture leveraging Cloudflare PostgreSQL as the database for persistent storage Efficient database handling with connection pooling RESTful API endpoints for blog operations Secure and scalable backend design
 
 # Tech Stack
-Cloud Provider: Cloudflare Database: PostgreSQL Library: HONO Language: JavaScript/TypeScript  #Architecture The backend follows a serverless architecture, where Cloudflare handles the serverless functions. PostgreSQL is used as the primary database with connection pooling to manage multiple database requests efficiently.
+Cloud Provider: Cloudflare
+Database: PostgreSQL
+Library: HONO
+Language: JavaScript/TypeScript  
+# Architecture 
+The backend follows a serverless architecture,
+where Cloudflare handles the serverless functions.
+PostgreSQL is used as the primary database with connection pooling to manage multiple database requests efficiently.
 
 # Setup
 Prerequisites Before you begin, ensure you have met the following requirements:
 
-You have a Cloudflare account. You have PostgreSQL installed locally or have access to a PostgreSQL database. You have node and npm installed.
+You have a Cloudflare account.
+You have PostgreSQL installed locally or have access to a PostgreSQL database.
+You have node and npm installed.
